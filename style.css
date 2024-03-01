@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('home.jpg');
+}
+
+/*
+*   HOME PAGE
+*/
+.header .left-side-header h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.left-side-header {
+    margin-left: 8%;
+    margin-top: 1.5%;
+    display: inline-block;
+}
+
+.right-side-header {
+    position: absolute;
+    top: 4.5%;
+    right: 11%;
+}
+
+.header .right-side-header ul{
+    list-style: none;
+}
+
+.header .right-side-header ul li {
+    display: inline-block;
+    padding-left: 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.header .right-side-header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.header .right-side-header ul li a:hover{
+    color: rgb(4,195,249);
+}
+
+.main-section{
+    height: 450px;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+
+}
+
+.main-section .titles h3 {
+    font-weight: bold;
+    font-size: 2.7rem;
+    color: white;
+}
+
+.main-section .titles h1 {
+    font-weight: bold;
+    color: rgb(4,195,249);
+    font-size: 2rem;
+}
+
+.about-me p{
+    max-width: 40%;
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.buttons{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+
+.btn1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(4,195,249);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+
+.btn2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid 1px rgb(4,195,249);
+    border-radius: 7px; 
+    color: rgb(4,195,249);
+}
+
+.btn1:hover{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid 1px rgb(4,195,249);
+    border-radius: 7px; 
+    color: rgb(4,195,249);
+    cursor: pointer;
+}
+
+.btn2:hover{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(4,195,249);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    margin-right: 40px;
+    cursor: pointer; 
+    color: black; 
+}
+
+/*
+*   About me page
+*/
+
+.about-div {
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    text-align: center;
+    color: white;
+}
+
+.about-div h2 {
+    width: 40%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.about-div p {
+    width: 40%;
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.btn-cme {
+    position: absolute;
+    top: 75%;
+    left: 47%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(4,195,249);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+
+.btn-cme:hover{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid 1px rgb(4,195,249);
+    border-radius: 7px; 
+    color: rgb(4,195,249);
+    cursor: pointer;
+}
